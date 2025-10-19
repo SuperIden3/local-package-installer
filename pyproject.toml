@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-package-installer"
+version = "0.1.0"
+description = "A script that moves files from the directory of packages installed from official websites into their /usr/local equivalent."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Chi Zu", email = "chizu7992@gmail.com" },
+]
+keywords = ["pkg", "package", "python", "local", "install"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://github.com/SuperIden3/local-package-installer"
+Documentation = "https://my-python-package.readthedocs.io/"
+Repository = "https://github.com/SuperIden3/local-package-installer.git"
+
+[project.optional-dependencies]
+dev = [
+    #"pytest>=7.0",
+    #"flake8>=4.0",
+]
